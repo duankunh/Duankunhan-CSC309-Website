@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSC309 Personal Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div id="header">Hello Visitors!</div>
+        <div class="columns">
+            <div class="column">
+                <h1>Kunhan Duan</h1>
+                <h2>duankunh</h2>
+
+                <ul>
+                    <li>A1 is worth 10%.</li>
+                    <li>A2 is worth 20%.</li>
+                    <li>A3 is worth 15%.</li>
+                </ul>
+                <br><br>
+
+                <details>
+                    <summary>Fact</summary>
+                    <p>I'm
+                    <b>a</b>
+                    <del>robot</del>
+                    <u>human</u>
+                    !</p>
+                </details>
+
+                <br>
+
+                <table>
+                    <tr>
+                        <th>Course</th>
+                        <th>Year</th>
+                        <th>Semester</th>
+                        <th>Assignments</th>
+                    </tr>
+                    <tr>
+                        <td>CSC309</td>
+                        <td>2022</td>
+                        <td>Fall</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>CSC209</td>
+                        <td>2022</td>
+                        <td>Summer</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                        <td>...</td>
+                    </tr>
+                </table>
+                <br><br>
+
+                <form action="https://csc309.teach.cs.toronto.edu/a1/submit/" method="post" enctype="multipart/form-data">
+                    <label for="feedback">Feedback</label>
+                    <textarea type='text' id='feedback' name='feedback' placeholder="Enter your feedback here" required></textarea>
+                    <br/><br/>
+
+                    <label for="email">Email</label>
+                    <input type='email' id='email' name='email' required>
+                    <br><br>
+
+                    <label for="attachment">Attachment</label>
+                    <input type="file" id="attachments" name="attachments" required><br><br>
+
+                    <input type="checkbox" id="consent" name="consent" value="yes" required>You agree to receive emails from me</input>
+                    <br><br>
+
+                    <button type="submit" id="submit" value="Send Feedback">Send Feedback</button>
+                    <br><br>
+                </form>
+            </div>
+
+            <div class="column">
+                <embed id="file" src="https://csc309.teach.cs.toronto.edu/a1/20211_CSC309H5S_LEC9102.pdf"></embed>
+            </div>
+        </div>
+        <footer>
+            <a href="mailto:jack.duan@mail.utoronto.ca?subject=Bug Found&body=I found the following bug on your website"jack.duan@mail.utoronto.ca</a>
+        </footer>
+    </body>
+</html>
+
+
